@@ -49,40 +49,69 @@ No specialized CFD or turbulence toolbox is required for the analysis.
 
 
 channel-flow-analysis/
+
 │
-├── config.m
+
+├── config.
+
 │
+
 ├── mean_velocity_profile.m
+
 ├── mean_velocity_streamwise.m
+
 ├── stationarity.m
+
 ├── sliding_window_stationarity.m
+
 ├── streamwise_homogeneity.m
+
 ├── spanwise_homogeneity.m
+
 ├── turbulence_statistics.m
+
 ├── rms_along_x.m
+
 ├── streamwise_autocorrelation.m
+
 └── spanwise_autocorrelation.m
 
 The input data should be placed inside a `data` directory:
 
 
 channel-flow-analysis/
+
 │
+
 ├── config.m
+
 ├── ...
+
 │
+
 └── data/
-    ├── x.csv
-    ├── y.csv
-    ├── z.csv
-    ├── u_stream_z1.csv
-    ├── u_stream_z2.csv
-    ├── ...
-    ├── u_stream_zN.csv
-    ├── u_span_z1.csv
-    ├── u_span_z2.csv
-    ├── ...
-    └── u_span_zN.csv
+
+   ├── x.csv
+    
+   ├── y.csv
+    
+   ├── z.csv
+    
+   ├── u_stream_z1.csv
+    
+   ├── u_stream_z2.csv
+    
+   ├── ...
+    
+   ├── u_stream_zN.csv
+    
+   ├── u_span_z1.csv
+    
+   ├── u_span_z2.csv
+    
+   ├── ...
+    
+   └── u_span_zN.csv
 
 
 ---
